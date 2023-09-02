@@ -1,0 +1,225 @@
+@font-face {
+    font-family: Calisto MT;
+    src: url(./fonts/CALIST.ttf);
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: Calisto MT;
+    src: url(./fonts/CALISTB.ttf);
+    font-weight: bold;
+  }
+  * {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    }
+
+    @media print{
+    .no-print, .no-print *{
+        display: none !important;
+    } 
+    .print-m-0{
+        margin: 0 !important;
+    }
+    } 
+
+    
+
+    .btn{
+        padding: 10px 17px; 
+        border-radius: 3px; 
+        background: #f4b71a; 
+        border: none; 
+        font-size: 12px; 
+        margin: 10px 5px;
+    }
+
+    .toolbar{
+    background: #333; 
+    width: 100vw; 
+    position: fixed; 
+    left: 0; 
+    top: 0; 
+    text-align: center;
+    z-index: 11;
+    }
+
+    .cert-container {
+        /* width: 595.27pt;
+        height: 811.88pt; */
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding: 37pt;
+        max-width: 100%;
+    }
+
+
+.cert{
+    /* border-color: #D4C78C;
+    border-style: double; */
+    text-align: center;
+    font-family: Calisto MT;
+    /* width: 520.0012pt;
+    height: 748.89pt; */
+
+}
+.logo{
+    padding-top: 28.8pt;
+    padding-bottom: 39.8pt;
+}
+.logo img{
+    width: 169.9205pt;
+    height: 142.1597pt;
+}
+
+.top-c h1 {
+    color:#333333;
+    font-family: Calisto MT;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 25pt;
+    line-height: 25pt;
+    padding-top: 33.1pt;
+    padding-bottom: 26.4pt;
+}
+.top-c .s3 {
+    color:#333333;
+    font-family: Calisto MT;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 21.39pt;
+    line-height: 21.39pt;
+}
+.top-c .s4 {
+    color:#333333;
+    font-family: Calisto MT;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 18.47pt;
+    line-height: 18.47pt;
+ 
+}
+
+.top-c h2{
+    color:#333333;
+    font-family: Calisto MT;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 21pt;
+    line-height: 21pt;
+    padding-top: 33.6pt;
+    padding-bottom: 20.4pt;
+
+}
+.top-c .s5 {
+    color:#333333;
+    font-family: Calisto MT;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 19.45pt;
+    line-height: 19.45pt;
+ 
+}
+
+.top-c h3 {
+    color:#333333;
+    font-family: Calisto MT;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 22pt;
+    line-height: 22pt;
+    padding-top:26.4pt;
+    padding-bottom: 16.4pt;
+}
+.top-c h4 {
+    color:#333333;
+    font-family: Calisto MT;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 19.45pt;
+    line-height: 19.45pt;
+    padding-top: 27.76pt;
+    padding-bottom: 45pt;
+}
+
+
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.sign-logo {
+    position: relative;
+}
+.sign-logo  img{
+    width: 112.89pt;
+    height: 79.56pt;
+}
+.sign-logo  .s6 {
+    color: #231F20;
+    font-family: Calisto MT;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+    text-align: center;
+}
+.sign-logo  .s6.s6-top{
+    padding-top:32.2pt;
+}
+
+
+.qr-logo{
+   margin-top: auto;
+   text-align: end;
+   padding-right: 24pt;
+   position: relative;
+   top: 9pt;
+}
+.qr-logo img{
+    width: 72pt;
+    height: 72pt;
+}
+
+.found-logo {
+    margin-top: auto;
+    padding-left: 17pt;
+}
+.found-logo img{
+    width: 114.66pt;
+    height: 54.33pt;
+}
+.s7 {
+    color: #231F20;
+    font-family: Calisto MT;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 9pt;
+    padding-top: 43pt;
+}
+.bottomsec{
+    display: flex;
+    justify-content: space-between;
+}
+.bottomsec .date{
+    padding-left: 44pt;
+}
+.bottomsec .number{
+    padding-right: 14pt;
+}
+.s8 {
+    color: #231F20;
+    font-family: Calisto MT;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 7pt;
+    text-align: center;
+    padding-top: 25.2pt;
+    padding-bottom: 42.7pt;
+}
