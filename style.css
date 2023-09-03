@@ -45,29 +45,29 @@
     }
 
     .cert-container {
-        /* width: 595.27pt;
-        height: 811.88pt; */
+        width: 595.27pt;
+        height: 842.88pt;
         display: flex; 
         justify-content: center;
         align-items: center;
         position: relative;
-        padding: 37pt;
-        max-width: 100%;
     }
 
 
 .cert{
-    /* border-color: #D4C78C;
-    border-style: double; */
+  
+    border:1pt solid #b9a444;
+    outline: 1pt solid #b9a444;
+    outline-offset: -4pt;
+    border-radius: 2px;
     text-align: center;
     font-family: Calisto MT;
-    /* width: 520.0012pt;
-    height: 748.89pt; */
-
+    width: 526pt;
+    height: 748pt;
 }
 .logo{
     padding-top: 28.8pt;
-    padding-bottom: 39.8pt;
+    padding-bottom: 35.8pt;
 }
 .logo img{
     width: 169.9205pt;
@@ -81,8 +81,8 @@
     text-decoration: none;
     font-size: 25pt;
     line-height: 25pt;
-    padding-top: 33.1pt;
-    padding-bottom: 26.4pt;
+    padding-top: 30.1pt;
+    padding-bottom: 22.4pt;
 }
 .top-c .s3 {
     color:#333333;
@@ -110,8 +110,8 @@
     text-decoration: none;
     font-size: 21pt;
     line-height: 21pt;
-    padding-top: 33.6pt;
-    padding-bottom: 20.4pt;
+    padding-top: 25.6pt;
+    padding-bottom: 20pt;
 
 }
 .top-c .s5 {
@@ -131,7 +131,7 @@
     text-decoration: none;
     font-size: 22pt;
     line-height: 22pt;
-    padding-top:26.4pt;
+    padding-top:22.4pt;
     padding-bottom: 16.4pt;
 }
 .top-c h4 {
@@ -141,8 +141,8 @@
     text-decoration: none;
     font-size: 19.45pt;
     line-height: 19.45pt;
-    padding-top: 27.76pt;
-    padding-bottom: 45pt;
+    padding-top: 20.76pt;
+    padding-bottom: 40pt;
 }
 
 
@@ -200,7 +200,7 @@
     font-weight: normal;
     text-decoration: none;
     font-size: 9pt;
-    padding-top: 43pt;
+    padding-top: 15pt;
 }
 .bottomsec{
     display: flex;
@@ -220,6 +220,5 @@
     text-decoration: none;
     font-size: 7pt;
     text-align: center;
-    padding-top: 25.2pt;
-    padding-bottom: 42.7pt;
+    padding-top: 20.2pt;
 }
