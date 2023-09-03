@@ -45,8 +45,8 @@
     }
 
     .cert-container {
-        width: 595.27pt;
-        height: 842.88pt;
+        width: 595.28pt;
+        height: 842.89pt;
         display: flex; 
         justify-content: center;
         align-items: center;
@@ -62,8 +62,8 @@
     border-radius: 2px;
     text-align: center;
     font-family: Calisto MT;
-    width: 525pt;
-    height: 748pt;
+    width: 520.001pt;
+    height: 746.9pt;
 }
 .logo{
     padding-top: 28.8pt;
@@ -218,7 +218,7 @@
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
-    font-size: 7pt;
+    font-size: 6.5pt;
     text-align: center;
     padding-top: 20.2pt;
 }
