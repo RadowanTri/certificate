@@ -189,10 +189,14 @@
     margin-top: auto;
     padding-left: 17pt;
 }
-.found-logo img{
+/* .found-logo img{
     width: 114.66pt;
     height: 54.33pt;
-}
+} */
+ .qr-logo {
+    display: flex;
+    gap: 10px;
+ }
 .s7 {
     color: #231F20;
     font-family: Calisto MT;
